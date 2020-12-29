@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="违章车辆的"
+        android:id="@+id/txt_title"
+        />
+
+
+
+
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_margin="20dp"
+        android:id="@+id/bar_chart"
+        >
+
+    </com.github.mikephil.charting.charts.HorizontalBarChart>
+
+
+
+</LinearLayout>

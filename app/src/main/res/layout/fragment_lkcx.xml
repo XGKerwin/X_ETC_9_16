@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/background"
+        >
+
+        <LinearLayout
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:id="@+id/txt_ks_top"
+                    android:layout_width="670dp"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:text="环   城   快   速   路"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_marginTop="34dp"
+                    android:layout_marginLeft="30dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/txt_ks_botton"
+                    android:layout_width="670dp"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:text="环  城  快  速  路"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="45dp"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="315dp"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="315dp"
+                    android:layout_marginLeft="73dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_ks_left"
+                    android:layout_width="40dp"
+                    android:layout_height="510dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="75dp"
+                    android:text="环城快速路\n\n\n\n\n\环城快速路"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:background="#fff" />
+
+                <TextView
+                    android:id="@+id/txt_gs_right"
+                    android:layout_width="40dp"
+                    android:layout_height="510dp"
+                    android:background="#ddd"
+                    android:text="环\n城\n高\n速\n\n\n\n\n\n环\n城\n高\n速"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="75dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_xueyuanlu"
+                    android:layout_width="40dp"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="188dp"
+                    android:layout_marginTop="75dp"
+                    android:background="#ddd"
+                    android:text="学\n\n院\n\n路"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_lianxianglu"
+                    android:layout_width="40dp"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="348dp"
+                    android:layout_marginTop="75dp"
+                    android:background="#ddd"
+                    android:text="联\n\n想\n\n路"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_xingfulu"
+                    android:layout_width="40dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="188dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="87dp"
+                    android:background="#ddd"
+                    android:text="幸\n\n福\n\n路"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/txt_yiyuanlu"
+                    android:layout_width="40dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="348dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="87dp"
+                    android:background="#ddd"
+                    android:text="医\n\n院\n\n路"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txt_tcc"
+                    android:layout_width="100dp"
+                    android:layout_height="174dp"
+                    android:layout_marginLeft="478dp"
+                    android:layout_marginTop="250dp"
+                    android:background="#ddd"
+                    android:text="停车场"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    />
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/txt_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020-6-7"
+                    android:textSize="40dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="40dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_xingqi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="星期二"
+                    android:textSize="40dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="60dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_wendu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="温度："
+                    android:textSize="30dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="310dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_shidu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="相对湿度："
+                    android:textSize="30dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="250dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_pm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PM2.5："
+                    android:textSize="30dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="285dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/finsh"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="450dp"
+                    android:id="@+id/img_shuaxin"
+                    />
+
+                <ImageView
+                    android:layout_width="480dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/dlcx12"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginLeft="30dp"
+                    />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

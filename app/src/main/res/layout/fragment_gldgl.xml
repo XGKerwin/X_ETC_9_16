@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排序："
+            android:textSize="30dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_marginLeft="50dp"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cx"
+            android:textSize="25dp"
+            android:text="查询"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_marginRight="50dp"
+            />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_plcz"
+            android:textSize="25dp"
+            android:text="批量充值"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_marginRight="50dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/lin_baise_hei1"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:text="路口"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/lin_baise_hei1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:text="红灯时长(S)"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/lin_baise_hei1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:text="黄灯时长(S)"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/lin_baise_hei1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:text="绿灯时长(S)"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/lin_baise_hei1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="0.6"
+                android:text="操作项"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/lin_baise_hei1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="1.5"
+                android:text="设置"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/lin_baise_hei1"
+                />
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listview"
+            />
+
+
+        
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:id="@+id/lin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:id="@+id/txt_bianhao"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:padding="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mazida"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="130dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="鲁A100002"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:id="@+id/txt_cph"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="车:主张三"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:id="@+id/txt_chezhu"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="余额：100元"
+            android:id="@+id/txt_yue"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:layout_marginLeft="100dp"
+            android:gravity="center"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkbox"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="350dp"
+                />
+
+            <Button
+                android:id="@+id/btn_chongzhi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="充值"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

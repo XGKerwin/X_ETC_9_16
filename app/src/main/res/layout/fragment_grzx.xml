@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#C8C8C8"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人信息"
+            android:paddingBottom="10dp"
+            android:background="@drawable/txt_xia"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:id="@+id/txt_grxx"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值记录"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:paddingBottom="10dp"
+            android:background="@drawable/txt_xia"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/txt_czjl"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阈值设置"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:paddingBottom="10dp"
+            android:background="@drawable/txt_wu"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/txt_yzsz"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        >
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment16"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

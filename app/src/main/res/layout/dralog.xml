@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="765dp"
+        android:layout_height="505dp"
+        android:orientation="vertical"
+        android:background="@drawable/lin_baise_hei1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/lin_huise_hei1"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:text="车辆账户充值"
+                android:textSize="35dp"
+                android:paddingLeft="50dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:text="车牌号:"
+                android:textSize="25dp"
+                android:id="@+id/txt_cph"
+                android:paddingLeft="100dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:text="车牌号:"
+                    android:textSize="25dp"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_jine"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:hint="1-999"
+                    android:maxLength="3"
+                    android:inputType="number"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="25dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:text="元"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25dp"
+                    android:layout_marginRight="150dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                >
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:textSize="25dp"
+                    android:text="充值"
+                    android:id="@+id/btn_chongzhi"
+                    />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:textSize="25dp"
+                    android:text="取消"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/btn_quxiao"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

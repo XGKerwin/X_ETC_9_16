@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="470dp"
+        android:layout_height="505dp"
+        android:orientation="vertical"
+        android:background="@drawable/lin_baise_hei1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="公交车载客情况统计"
+            android:textSize="30dp"
+            android:padding="20dp"
+            android:background="@drawable/lin_huise_hei1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/lin_baise_hei1"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="序号"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:background="@drawable/lin_baise_hei1"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="公交车编号"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:background="@drawable/lin_baise_hei1"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="承载人数"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/lin_baise_hei1"
+                    />
+
+
+
+            </LinearLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/dia_list"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/lin_baise_hei1"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="合计"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:background="@drawable/lin_baise_hei1"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="公交车编号"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:id="@+id/heji"
+                    android:padding="5dp"
+                    android:background="@drawable/lin_baise_hei1"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:id="@+id/dia_btn"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
